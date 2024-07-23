@@ -16,15 +16,15 @@ import icomponentes.ISistemaEletrico;
  * @author Cezarino Hora
  */
 public interface IVeiculoFactory {
-
-    void criarMotor();
     
-    void criarCarroceria();
+    IMotor criarMotor();
     
-    void criarRodas();
+    ICarroceria criarCarroceria();
     
-    void criarAssentos();
+    IRodas criarRodas();
     
-    void criarSistemaEletrico();
+    IAssentos criarAssentos();
+    
+    ISistemaEletrico criarSistemaEletrico();
     
 }

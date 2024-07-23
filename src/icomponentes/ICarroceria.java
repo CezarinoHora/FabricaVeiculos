@@ -10,6 +10,5 @@ package icomponentes;
  * @author Cezarino Hora
  */
 public interface ICarroceria {
-    void Montar();
-    
+    String getDescricao();
 }

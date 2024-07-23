@@ -11,8 +11,9 @@ import icomponentes.IMotor;
  * @author Cezarino Hora
  */
 class MotorCombustao implements IMotor {
+    
     @Override
-    public void ligar() {
-        System.out.println("Motor a combustão ligado.");
+    public String getDescricao() {
+        return "Motor a Combustão";
     }
 }

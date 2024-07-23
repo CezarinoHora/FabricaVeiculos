@@ -11,10 +11,9 @@ import icomponentes.ICarroceria;
  * @author Cezarino Hora
  */
 class CarroceriaSedan implements ICarroceria {
-
-    @Override
-    public void Montar() {
-        System.out.println("Carroceria do sedan montada.");
-    }
     
+    @Override
+    public String getDescricao() {
+        return "Carroceria Sedan";
+    }
 }

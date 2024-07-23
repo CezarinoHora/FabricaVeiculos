@@ -13,8 +13,7 @@ import icomponentes.IMotor;
 class MotorEletrico implements IMotor {
     
     @Override
-    public void ligar() {
-        System.out.println("Motor elétrico ligado.");  
+    public String getDescricao() {
+        return "Motor Elétrico";
     }
-    
 }

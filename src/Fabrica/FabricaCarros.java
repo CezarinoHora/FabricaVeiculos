@@ -4,35 +4,33 @@
  */
 package Fabrica;
 
+import icomponentes.IAssentos;
+import icomponentes.ICarroceria;
+import icomponentes.IMotor;
+import icomponentes.IRodas;
+import icomponentes.ISistemaEletrico;
 /**
  *
  * @author Cezarino Hora
  */
 class FabricaCarros implements IVeiculoFactory {
-
-    @Override
-    public void criarMotor() {
-//        return new MotorEletrico();
+    public IMotor criarMotor() {
+        return new MotorCombustao();
     }
 
-    @Override
-    public void criarCarroceria() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public ICarroceria criarCarroceria() {
+        return new CarroceriaSedan();
     }
 
-    @Override
-    public void criarRodas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public IRodas criarRodas() {
+        return new RodasAro17();
     }
 
-    @Override
-    public void criarAssentos() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public IAssentos criarAssentos() {
+        return new AssentosCouro();
     }
 
-    @Override
-    public void criarSistemaEletrico() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public ISistemaEletrico criarSistemaEletrico() {
+        return new SistemaEletricoAvancado();
     }
-
 }

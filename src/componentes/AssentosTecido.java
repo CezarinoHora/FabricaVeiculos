@@ -11,8 +11,9 @@ import icomponentes.IAssentos;
  * @author Cezarino Hora
  */
 class AssentosTecido implements IAssentos {
+    
     @Override
-    public void colocar() {
-        System.out.println("Assentos de tecido colocados.");
+    public String getDescricao() {
+        return "Assentos de Tecido";
     }
 }

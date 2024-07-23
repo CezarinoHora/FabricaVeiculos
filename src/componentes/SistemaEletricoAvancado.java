@@ -11,8 +11,9 @@ import icomponentes.ISistemaEletrico;
  * @author Cezarino Hora
  */
 class SistemaEletricoAvancado implements ISistemaEletrico {
+    
     @Override
-    public void testar() {
-        System.out.println("Sistema elétrico avançado testado.");
+    public String getDescricao() {
+        return "Sistema Elétrico Avançado";
     }
 }

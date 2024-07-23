@@ -10,6 +10,5 @@ package icomponentes;
  * @author Cezarino Hora
  */
 public interface IRodas {
-    void instalar();
-    
+    String getDescricao();
 }

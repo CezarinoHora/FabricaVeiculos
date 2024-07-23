@@ -11,8 +11,9 @@ import icomponentes.ISistemaEletrico;
  * @author Cezarino Hora
  */
 class SistemaEletricoBasico implements ISistemaEletrico {
+    
     @Override
-    public void testar() {
-        System.out.println("Sistema elétrico básico testado.");
+    public String getDescricao() {
+        return "Sistema Elétrico Básico";
     }
 }

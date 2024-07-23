@@ -11,8 +11,9 @@ import icomponentes.IAssentos;
  * @author Cezarino Hora
  */
 class AssentosCouro implements IAssentos {
+    
     @Override
-    public void colocar() {
-        System.out.println("Assentos de couro colocados.");
+    public String getDescricao() {
+        return "Assentos de Couro";
     }
 }

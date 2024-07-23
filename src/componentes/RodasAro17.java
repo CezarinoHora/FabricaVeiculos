@@ -11,8 +11,9 @@ import icomponentes.IRodas;
  * @author Cezarino Hora
  */
 class RodasAro17 implements IRodas {
+    
     @Override
-    public void instalar() {
-        System.out.println("Rodas aro 17 instaladas.");
+    public String getDescricao() {
+        return "Rodas Aro 17";
     }
 }

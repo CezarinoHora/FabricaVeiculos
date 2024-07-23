@@ -10,5 +10,5 @@ package icomponentes;
  * @author Cezarino Hora
  */
 public interface IAssentos {
-    void colocar();
+    String getDescricao();
 }
