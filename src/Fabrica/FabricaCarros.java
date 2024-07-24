@@ -14,22 +14,27 @@ import icomponentes.ISistemaEletrico;
  * @author Cezarino Hora
  */
 class FabricaCarros implements IVeiculoFactory {
+    @Override
     public IMotor criarMotor() {
         return new MotorCombustao();
     }
 
+    @Override
     public ICarroceria criarCarroceria() {
         return new CarroceriaSedan();
     }
 
+    @Override
     public IRodas criarRodas() {
         return new RodasAro17();
     }
 
+   @Override
     public IAssentos criarAssentos() {
         return new AssentosCouro();
     }
 
+    @Override
     public ISistemaEletrico criarSistemaEletrico() {
         return new SistemaEletricoAvancado();
     }
