@@ -10,10 +10,8 @@ import icomponentes.ICarroceria;
  *
  * @author Cezarino Hora
  */
-class CarroceriaSedan implements ICarroceria {
-    
-    @Override
-    public String getDescricao() {
-        return "Carroceria Sedan";
+public class CarroceriaSedan implements ICarroceria {
+    public void exibirTipo() {
+        System.out.println("Carroceria Sedan");
     }
 }

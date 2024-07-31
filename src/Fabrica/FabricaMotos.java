@@ -14,9 +14,9 @@ import icomponentes.ISistemaEletrico;
  *
  * @author Cezarino Hora
  */
-public class FabricaCarros implements IVeiculoFactory {
+public class FabricaMotos implements IVeiculoFactory {
     public IMotor criarMotor() {
-        return new MotorEletrico();
+        return new MotorCombustao();
     }
 
     public ICarroceria criarCarroceria() {
@@ -28,10 +28,10 @@ public class FabricaCarros implements IVeiculoFactory {
     }
 
     public IAssentos criarAssentos() {
-        return new AssentosCouro();
+        return new AssentosTecido();
     }
 
     public ISistemaEletrico criarSistemaEletrico() {
-        return new SistemaEletricoAvancado();
+        return new SistemaEletricoBasico();
     }
 }

@@ -10,10 +10,8 @@ import icomponentes.IAssentos;
  *
  * @author Cezarino Hora
  */
-class AssentosTecido implements IAssentos {
-    
-    @Override
-    public String getDescricao() {
-        return "Assentos de Tecido";
+public class AssentosTecido implements IAssentos {
+    public void exibirTipo() {
+        System.out.println("Assentos de Tecido");
     }
 }

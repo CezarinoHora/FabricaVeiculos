@@ -6,14 +6,13 @@ package componentes;
 
 import icomponentes.IMotor;
 
+
 /**
  *
  * @author Cezarino Hora
  */
-class MotorEletrico implements IMotor {
-    
-    @Override
-    public String getDescricao() {
-        return "Motor Elétrico";
+public class MotorEletrico implements IMotor {
+    public void exibirTipo() {
+        System.out.println("Motor Elétrico");
     }
 }

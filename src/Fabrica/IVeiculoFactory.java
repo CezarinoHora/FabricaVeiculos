@@ -1,5 +1,6 @@
 package Fabrica;
 
+import icomponentes.*;
 import icomponentes.IAssentos;
 import icomponentes.ICarroceria;
 import icomponentes.IMotor;
@@ -16,15 +17,10 @@ import icomponentes.ISistemaEletrico;
  * @author Cezarino Hora
  */
 public interface IVeiculoFactory {
-    
     IMotor criarMotor();
-    
-    ICarroceria criarCarroceria();
-    
-    IRodas criarRodas();
-    
+    ICarroceria criarCarroceria();  
+    IRodas criarRodas();  
     IAssentos criarAssentos();
-    
     ISistemaEletrico criarSistemaEletrico();
     
 }

@@ -10,10 +10,8 @@ import icomponentes.IMotor;
  *
  * @author Cezarino Hora
  */
-class MotorCombustao implements IMotor {
-    
-    @Override
-    public String getDescricao() {
-        return "Motor a Combustão";
+public class MotorCombustao implements IMotor {
+    public void exibirTipo() {
+        System.out.println("Motor a Combustão");
     }
 }

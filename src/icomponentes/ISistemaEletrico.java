@@ -10,5 +10,5 @@ package icomponentes;
  * @author Cezarino Hora
  */
 public interface ISistemaEletrico {
-    String getDescricao();
+    void exibirTipo();
 }

@@ -10,10 +10,8 @@ import icomponentes.IRodas;
  *
  * @author Cezarino Hora
  */
-class RodasAro20 implements IRodas {
-    
-    @Override
-    public String getDescricao() {
-        return "Rodas Aro 20";
+public class RodasAro20 implements IRodas {
+    public void exibirTipo() {
+        System.out.println("Rodas Aro 20");
     }
 }

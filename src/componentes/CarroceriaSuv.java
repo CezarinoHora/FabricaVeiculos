@@ -10,10 +10,8 @@ import icomponentes.ICarroceria;
  *
  * @author Cezarino Hora
  */
-class CarroceriaSUV implements ICarroceria {
-    
-    @Override
-    public String getDescricao() {
-        return "Carroceria SUV";
+public class CarroceriaSuv implements ICarroceria {
+    public void exibirTipo() {
+        System.out.println("Carroceria SUV");
     }
 }

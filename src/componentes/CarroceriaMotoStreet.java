@@ -4,14 +4,14 @@
  */
 package componentes;
 
-import icomponentes.ISistemaEletrico;
+import icomponentes.ICarroceria;
 
 /**
  *
  * @author Cezarino Hora
  */
-public class SistemaEletricoAvancado implements ISistemaEletrico {
+public class CarroceriaMotoStreet implements ICarroceria {
     public void exibirTipo() {
-        System.out.println("Sistema Elétrico Avançado");
+        System.out.println("Carroceria Street");
     }
 }

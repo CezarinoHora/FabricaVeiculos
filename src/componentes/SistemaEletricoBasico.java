@@ -10,10 +10,8 @@ import icomponentes.ISistemaEletrico;
  *
  * @author Cezarino Hora
  */
-class SistemaEletricoBasico implements ISistemaEletrico {
-    
-    @Override
-    public String getDescricao() {
-        return "Sistema Elétrico Básico";
+public class SistemaEletricoBasico implements ISistemaEletrico {
+    public void exibirTipo() {
+        System.out.println("Sistema Elétrico Básico");
     }
 }

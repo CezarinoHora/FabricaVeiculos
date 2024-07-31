@@ -10,5 +10,5 @@ package icomponentes;
  * @author Cezarino Hora
  */
 public interface ICarroceria {
-    String getDescricao();
+    void exibirTipo();
 }
