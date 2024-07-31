@@ -3,23 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/Fabrica/FabricaCarros.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/SistemaEletricoAvancado.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/ISistemaEletrico.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/CarroceriaSedan.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/RodasAro17.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/IAssentos.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/RodasAro20.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/IRodas.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/MotorEletrico.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/MotorCombustao.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/Fabrica/IVeiculoFactory.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/AssentosTecido.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/IMotor.java</file>
             <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/AssentosCouro.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/Fabrica/FabricaCarros.java</file>
             <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/ICarroceria.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/IRodas.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/ISistemaEletrico.java</file>
             <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/SistemaEletricoBasico.java</file>
-            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/CarroceriaSuv.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/Fabrica/IVeiculoFactory.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/IAssentos.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/icomponentes/IMotor.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/AssentosTecido.java</file>
+            <file>file:/C:/REPO/NetBeansProjects/FabricaVeiculos/src/componentes/CarroceriaSedan.java</file>
         </group>
     </open-files>
 </project-private>
